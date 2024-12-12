@@ -1,0 +1,52 @@
+{
+  "name": "laboulangerie-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.1.0",
+    "@testing-library/user-event": "^14.5.2",
+    "classnames": "^2.3.2",
+    "connected-react-router": "^6.9.0",
+    "create-react-class": "^15.7.0",
+    "google-map-react": "^2.2.0",
+    "raf-schd": "^4.0.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.4.0",
+    "react-router": "^6.28.0",
+    "react-router-dom": "^6.28.0",
+    "react-scripts": "^5.0.1",
+    "rsuite": "^5.75.0",
+    "serve": "^14.2.0",
+    "webpack": "^5.97.1"
+  },
+  "scripts": {
+    "dev": "react-scripts start",
+    "start": "serve -s build && react-scripts start --openssl-legacy-provider",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "ajv": "^8.17.1",
+    "ajv-keywords": "^5.1.0",
+    "schema-utils": "^4.3.0"
+  }
+}
