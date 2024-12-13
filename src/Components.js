@@ -18,6 +18,26 @@ import image11 from "../src/images/11.png";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
 
 import { Link, BrowserRouter } from "react-router-dom";
+import { createReduxHistoryContext } from "redux-first-history";
+import { configureStore } from "@reduxjs/toolkit";
+import { createBrowserHistory } from "history";
+
+const { createReduxHistory, routerMiddleware, routerReducer } =
+  createReduxHistoryContext({
+    history: createBrowserHistory(),
+  });
+
+const store = configureStore({
+  reducer: {
+    router: routerReducer,
+    // autres reducers ici
+  },
+  middleware: (getDefaultMiddleware) =>
+    getDefaultMiddleware().concat(routerMiddleware),
+});
+
+const history = createReduxHistory(store);
+
 
 export default class ScrollingDiv extends React.Component {
   constructor(props) {

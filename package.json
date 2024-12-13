@@ -7,7 +7,6 @@
     "@testing-library/react": "^16.1.0",
     "@testing-library/user-event": "^14.5.2",
     "classnames": "^2.3.2",
-    "connected-react-router": "^6.9.0",
     "create-react-class": "^15.7.0",
     "google-map-react": "^2.2.0",
     "raf-schd": "^4.0.3",
@@ -17,6 +16,7 @@
     "react-router": "^6.28.0",
     "react-router-dom": "^6.28.0",
     "react-scripts": "^5.0.1",
+    "redux-first-history": "^5.2.0",
     "rsuite": "^5.75.0",
     "serve": "^14.2.0",
     "webpack": "^5.97.1"
