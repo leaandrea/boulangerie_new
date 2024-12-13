@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/boulangerie_new/static/css/main.736eef55.css",
+    "main.js": "/boulangerie_new/static/js/main.4a842167.js",
+    "static/media/boulangerie.jpg": "/boulangerie_new/static/media/boulangerie.d7d06e1a8cb82d8c68e7.jpg",
+    "static/media/bread1.jpg": "/boulangerie_new/static/media/bread1.7ce174e0a82dde44e8cf.jpg",
+    "static/media/pommes3.jpg": "/boulangerie_new/static/media/pommes3.944b743bb219018ba308.jpg",
+    "static/media/farine.jpg": "/boulangerie_new/static/media/farine.b6ca8d88a811303b81bc.jpg",
+    "static/media/fraises.jpg": "/boulangerie_new/static/media/fraises.e0a982e908fc31f825af.jpg",
+    "static/media/9.png": "/boulangerie_new/static/media/9.d9edbe08282d429a99b0.png",
+    "static/media/10.png": "/boulangerie_new/static/media/10.82d7549f4194f5d9fbd3.png",
+    "static/media/magasin.png": "/boulangerie_new/static/media/magasin.71cc00d1153b348db77a.png",
+    "static/media/facade.jpg": "/boulangerie_new/static/media/facade.dcf84bbd964be670af8a.jpg",
+    "static/media/11.png": "/boulangerie_new/static/media/11.fef6e92aa61ef9d79550.png",
+    "static/media/8.png": "/boulangerie_new/static/media/8.c8e8392d997de7bd50ac.png",
+    "index.html": "/boulangerie_new/index.html",
+    "main.736eef55.css.map": "/boulangerie_new/static/css/main.736eef55.css.map",
+    "main.4a842167.js.map": "/boulangerie_new/static/js/main.4a842167.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.736eef55.css",
+    "static/js/main.4a842167.js"
+  ]
+}
