@@ -28,7 +28,8 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "dev": "react-scripts start",
-    "start": "serve -s build && react-scripts start --openssl-legacy-provider",
+    "start": "serve -s build && react-scripts start --openssl-legacy-provider", 
+    
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
@@ -55,3 +56,5 @@
     "schema-utils": "^4.3.0"
   }
 }
+
+
