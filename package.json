@@ -23,7 +23,7 @@
     "serve": "^14.2.0",
     "webpack": "^5.97.1"
   },
-  "homepage": "https://leaandrea.github.io/boulangerie_new",
+  "homepage": "http://www.laboulangeriemenneval.fr/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
